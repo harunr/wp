@@ -1,0 +1,18 @@
+[17-Jun-2021 04:55:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Automattic\WooCommerce\Admin\Notes\WC_Admin_Notes_New_Sales_Record' not found in /home2/abestfiv/public_html/staging/wp/forex/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Events.php:64
+Stack trace:
+#0 /home2/abestfiv/public_html/staging/wp/forex/wp-includes/class-wp-hook.php(287): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#1 /home2/abestfiv/public_html/staging/wp/forex/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home2/abestfiv/public_html/staging/wp/forex/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /home2/abestfiv/public_html/staging/wp/forex/wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#4 {main}
+  thrown in /home2/abestfiv/public_html/staging/wp/forex/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Events.php on line 64
+[17-Jun-2021 04:55:48 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Log_Handler_File' not found in /home2/abestfiv/public_html/staging/wp/forex/wp-content/plugins/woocommerce/includes/wc-core-functions.php:1831
+Stack trace:
+#0 /home2/abestfiv/public_html/staging/wp/forex/wp-includes/class-wp-hook.php(287): wc_register_default_log_handler(Array)
+#1 /home2/abestfiv/public_html/staging/wp/forex/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /home2/abestfiv/public_html/staging/wp/forex/wp-content/plugins/woocommerce/includes/class-wc-logger.php(41): apply_filters('woocommerce_reg...', Array)
+#3 /home2/abestfiv/public_html/staging/wp/forex/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1734): WC_Logger->__construct()
+#4 /home2/abestfiv/public_html/staging/wp/forex/wp-content/plugins/woocommerce/includes/class-woocommerce.php(203): wc_get_logger()
+#5 [internal function]: WooCommerce->log_errors()
+#6 {main}
+  thrown in /home2/abestfiv/public_html/staging/wp/forex/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 1831
